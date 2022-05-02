@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"Menu. Functions Name"
+	{
+		"ru"	"Топ 10 инвентарей игроков по их стоимости."
+		"en"	""
+	}
+	"Menu. Tittle"
+	{
+		"ru"	"Топ 10 инвентарей\n "
+		"en"	""
+	}
+	"Menu. Nothing"
+	{
+		"ru"	"Похоже все игроки бомжи... :C"
+		"en"	"Looks like all players are bums... :C"
+	}
+	"Menu. Item Format"
+	{
+		"#format"	"{1:i},{2:24s},{3:i}"
+		"en"	"{1}. {2} {3}"
+	}
+}
