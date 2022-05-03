@@ -3,13 +3,13 @@
 public Plugin myinfo =
 {
 	name = "[Shop] Any Top",
-	description = "Adds a menu with a top of the players' expensive inventories.",
+	description = "Adds players stats to the shop function menu..",
 	author = "iLoco",
 	version = "1.0.0",
 	url = "Discord: iLoco#7631 | Telegram: @LocoCat | hlmod.ru/members/iloco.94537/"
 };
 
-// sm plugins reload shop_top_expensive_inventory;sm plugins load shop_top_expensive_inventory;say !shop
+// sm plugins reload shop_any_top;sm plugins load shop_any_top;say !shop
 
 #pragma newdecls required
 #pragma semicolon 1

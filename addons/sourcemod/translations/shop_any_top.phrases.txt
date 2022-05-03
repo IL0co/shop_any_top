@@ -26,4 +26,14 @@
 		"ru"	"Топ 100 дорогих инвентарей"
 		"en"	"Top 100 Expensive Inventory"
 	}
+	"Top 100 items count"
+	{
+		"ru"	"Топ 100 по количеству предметов"
+		"en"	"Top 100 by item count"
+	}
+	"Top 100 enable items"
+	{
+		"ru"	"Топ 100 по включенным предметам"
+		"en"	"Top 100 enabled Items"
+	}
 }
