@@ -2,7 +2,7 @@
 
 public Plugin myinfo =
 {
-	name = "[Shop] Top Expensive Inventory",
+	name = "[Shop] Any Top",
 	description = "Adds a menu with a top of the players' expensive inventories.",
 	author = "iLoco",
 	version = "1.0.0",
@@ -51,7 +51,7 @@ public void OnPluginStart()
 		g_kvConfig.GetSectionName(g_sOneKeyMode, sizeof(g_sOneKeyMode));
 	}
 
-	LoadTranslations("shop_top_expensive_inventory.phrases");
+	LoadTranslations("shop_any_top.phrases");
 	LoadTranslations("core.phrases");
 
 	if(Shop_IsStarted()) {

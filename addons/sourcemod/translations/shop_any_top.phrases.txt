@@ -1,0 +1,29 @@
+"Phrases"
+{
+	"Menu. Functions Tittle"
+	{
+		"ru"	"Топы игроков\n "
+		"en"	"Tops of players\n "
+	}
+	"Menu. Functions Name"
+	{
+		"ru"	"Топы игроков"
+		"en"	"Tops of players"
+	}
+	"Menu. Nothing"
+	{
+		"ru"	"Похоже все игроки бомжи... :C"
+		"en"	"Looks like all players are bums... :C"
+	}
+	
+	"Top 100 credits"
+	{
+		"ru"	"Топ 100 богачей"
+		"en"	"Top 100 rich people"
+	}
+	"Top 100 inv"
+	{
+		"ru"	"Топ 100 дорогих инвентарей"
+		"en"	"Top 100 Expensive Inventory"
+	}
+}
