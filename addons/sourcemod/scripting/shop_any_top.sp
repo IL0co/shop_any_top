@@ -217,7 +217,7 @@ void UpdateQuery(char[] key, int client)
 	g_kvConfig.Rewind();
 	g_kvConfig.JumpToKey(key);
 
-	char buff[512];
+	char buff[512], player_id[12];
 
 	if(!key[0]) {
 		g_kvConfig.GetSectionName(key, MAX_KEY_LENGTH);
@@ -240,6 +240,8 @@ void UpdateQuery(char[] key, int client)
 	pack.WriteString(buff);
 
 	g_kvConfig.GetString("DataBase Query", buff, sizeof(buff));
+	FormatEx(player_id, sizeof(player_id), "%i", Shop_GetClientId(client));
+	ReplaceString(buff, sizeof(buff), "{player_id}", player_id);
 	ReplaceString(buff, sizeof(buff), "{prefix}", g_sDBPrefix);
 	g_hDb.Query(CB_Query_OnGetData, buff, pack);
 }
