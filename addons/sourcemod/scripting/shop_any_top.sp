@@ -54,7 +54,6 @@ public void OnPluginStart()
 		g_kvConfig.GetSectionName(g_sOneKeyMode, sizeof(g_sOneKeyMode));
 		g_kvConfig.GetString("Menu Name", g_sOneKeyName, sizeof(g_sOneKeyName), g_sOneKeyMode);
 	}
-	PrintToChatAll("g_iItemsCount %i", g_iItemsCount);
 
 	LoadTranslations("shop_any_top.phrases");
 	LoadTranslations("core.phrases");
