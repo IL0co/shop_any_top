@@ -5,7 +5,7 @@ public Plugin myinfo =
 	name = "[Shop] Any Top",
 	description = "Adds players stats to the shop function menu.",
 	author = "iLoco",
-	version = "1.0.0",
+	version = "1.0.1",
 	url = "Discord: iLoco#7631 | Telegram: @LocoCat | hlmod.ru/members/iloco.94537/"
 };
 
